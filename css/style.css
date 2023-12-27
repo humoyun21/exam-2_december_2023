@@ -319,6 +319,10 @@ body {
   font-family: Poppins;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -392,32 +396,10 @@ header .nav__list {
   gap: 48px;
   list-style-type: none;
 }
-header .nav__list--item-link1 {
-  text-decoration: none;
-  color: var(--Text2, #000);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  border-bottom: 1px solid;
+header .nav__list .hoverbottom {
+  border-bottom: 2px solid black;
 }
-header .nav__list--item-link2 {
-  text-decoration: none;
-  color: var(--Text2, #000);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-header .nav__list--item-link3 {
-  text-decoration: none;
-  color: var(--Text2, #000);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-header .nav__list--item-link4 {
+header .nav__list--item-link {
   text-decoration: none;
   color: var(--Text2, #000);
   text-align: center;
@@ -1003,23 +985,23 @@ footer {
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: var(--Button2, #DB4444);
+  background: var(--Button2, #db4444);
 }
 #section4 .categories__intro__photo1 p {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  background-color: #DB4444;
+  background-color: #db4444;
   border: transparent;
 }
 #section4 .categories__intro__photo1:hover {
-  background: var(--Button2, #FAFAFA);
+  background: var(--Button2, #fafafa);
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 #section4 .categories__intro__photo1:hover p {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   color: #000000;
 }
 
@@ -1029,7 +1011,7 @@ footer {
   gap: 16px;
 }
 .text h3 {
-  color: var(--Secondary-2, #DB4444);
+  color: var(--Secondary-2, #db4444);
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -1061,7 +1043,7 @@ footer {
   transition: 0.2s ease-in-out;
 }
 .sale__btn button:hover {
-  background: #DB4444;
+  background: #db4444;
   color: white;
 }
 
@@ -1134,7 +1116,7 @@ footer {
   margin-bottom: 8px;
 }
 .cards .card__item--text span:nth-child(1) {
-  color: var(--Secondary-2, #DB4444);
+  color: var(--Secondary-2, #db4444);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -1161,14 +1143,14 @@ footer {
   margin-top: 76px;
 }
 .ehence__intro h1 {
-  color: var(--Button1, #0F6);
+  color: var(--Button1, #0f6);
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   padding-top: 69px;
 }
 .ehence__intro h2 {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 44px;
   font-weight: 600;
   line-height: 60px;
@@ -1187,7 +1169,7 @@ footer {
   width: 62px;
   height: 62px;
   flex-shrink: 0;
-  background: #FAFAFA;
+  background: #fafafa;
   border-radius: 50%;
 }
 .ehence__intro--drop-wrapper h3 {
@@ -1214,7 +1196,7 @@ footer {
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: var(--Button1, #0F6);
+  background: var(--Button1, #0f6);
   margin-bottom: 69px;
 }
 
@@ -1230,28 +1212,28 @@ footer {
   margin-left: 32px;
 }
 .newarial__intro__wrapper h1 {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.72px;
 }
 .newarial__intro__wrapper h2 {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   width: 242px;
 }
 .newarial__intro__wrapper h3 {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
 
 .women {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   width: 570px;
   height: 284px;
   display: flex;
@@ -1266,7 +1248,7 @@ footer {
   padding-top: 118px;
 }
 .women__text h1 {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 22px;
   font-weight: 600;
   line-height: 24px;
@@ -1274,14 +1256,14 @@ footer {
 }
 .women__text h2 {
   width: 255px;
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 13px;
   font-weight: 400;
   line-height: 21px;
   margin-bottom: 16px;
 }
 .women__text h3 {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -1306,7 +1288,7 @@ footer {
   margin-left: 32px;
 }
 .speakers__intro__wrapper h1 {
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
@@ -1314,13 +1296,13 @@ footer {
 }
 .speakers__intro__wrapper h2 {
   width: 191px;
-  color: var(--Text, #FAFAFA);
+  color: var(--Text, #fafafa);
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
 }
 .speakers__intro__wrapper h3 {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -1424,8 +1406,8 @@ footer {
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: var(--Button2, #DB4444);
-  color: var(--Text, #FAFAFA);
+  background: var(--Button2, #db4444);
+  color: var(--Text, #fafafa);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -1437,7 +1419,7 @@ footer {
   border: none;
   color: white;
   border-radius: 4px;
-  background: var(--Button2, #DB4444);
+  background: var(--Button2, #db4444);
 }
 .signup__right_box {
   display: flex;
@@ -1501,4 +1483,405 @@ footer {
   background-color: transparent;
   line-height: 24px;
   border: none;
+}
+
+.wishlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 250px;
+  margin-bottom: 40px;
+}
+.wishlist h1 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.wishlist button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.wishlist button:hover {
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  color: white;
+}
+
+.cardover {
+  overflow-y: hidden;
+}
+
+.likecard {
+  width: 270px;
+  height: 322px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.likecard__intro {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+.likecard__intro__star {
+  display: flex;
+  align-items: center;
+}
+.likecard__intro__star h3 {
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.likecard__intro__star img {
+  margin-left: -49px;
+}
+.likecard__intro__box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.likecard__intro__box p {
+  color: #FFF;
+  margin: 12px;
+  display: inline-flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Secondary-2, #DB4444);
+}
+.likecard__intro img {
+  padding-top: 3px;
+  padding-left: 46px;
+}
+.likecard__intro button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--Button, #000);
+  gap: 8px;
+}
+.likecard__intro button p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.likecard__intro h1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro h2 {
+  color: var(--Secondary-2, #DB4444);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro h2 span {
+  color: var(--Button, #000);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.likecard__intro1 {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+.likecard__intro1__star {
+  display: flex;
+  align-items: center;
+}
+.likecard__intro1__star h3 {
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.likecard__intro1__star img {
+  margin-left: -49px;
+}
+.likecard__intro1__box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 34px;
+}
+.likecard__intro1__box p {
+  color: transparent;
+  margin: 12px;
+  display: inline-flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.likecard__intro1 img {
+  padding-top: 3px;
+  padding-left: 46px;
+}
+.likecard__intro1 button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--Button, #000);
+  gap: 8px;
+}
+.likecard__intro1 button p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.likecard__intro1 h1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro1 h2 {
+  color: var(--Secondary-2, #DB4444);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro1 h2 span {
+  color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.likecard__intro2 {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+.likecard__intro2__star {
+  display: flex;
+  align-items: center;
+}
+.likecard__intro2__star h3 {
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.likecard__intro2__star img {
+  margin-left: -49px;
+  padding-top: 37px;
+}
+.likecard__intro2__box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-top: 20px;
+}
+.likecard__intro2__box p {
+  color: transparent;
+  margin: 12px;
+  display: inline-flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.likecard__intro2 img {
+  margin-top: -36px;
+  padding-left: 46px;
+}
+.likecard__intro2 button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--Button, #000);
+  gap: 8px;
+}
+.likecard__intro2 button p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.likecard__intro2 h1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro2 h2 {
+  color: var(--Secondary-2, #DB4444);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro2 h2 span {
+  color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.likecard__intro3 {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+.likecard__intro3__star {
+  display: flex;
+  align-items: center;
+}
+.likecard__intro3__star h3 {
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.likecard__intro3__star img {
+  margin-left: -49px;
+  padding-top: 80px;
+}
+.likecard__intro3__box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-top: 35px;
+}
+.likecard__intro3__box p {
+  color: transparent;
+  margin: 12px;
+  display: inline-flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.likecard__intro3 img {
+  position: relative;
+  margin-top: -77px;
+  padding-left: 46px;
+}
+.likecard__intro3 button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--Button, #000);
+  gap: 8px;
+}
+.likecard__intro3 button p {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.likecard__intro3 h1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro3 h2 {
+  color: var(--Secondary-2, #DB4444);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.likecard__intro3 h2 span {
+  color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.justlike {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.justlike__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.justlike__wrapper h2 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.justlike button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.justlike button:hover {
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
