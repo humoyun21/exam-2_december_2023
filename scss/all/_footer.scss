@@ -1,0 +1,174 @@
+footer{
+    background: var(--Button, #000);
+    
+}
+.footer{
+    display: flex;
+   
+    gap: 70px;
+    
+
+    
+
+    &__box{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px; 
+            letter-spacing: 0.72px;
+            margin-bottom: 24px;
+        }
+        h2{
+            color: var(--Text, #FAFAFA);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px; 
+            margin-bottom: 24px;
+        }
+        h3{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 16px;
+        }
+
+        &--input{
+            display: flex;
+            width: 217px;
+            padding: 12px 0px 12px 16px;
+            align-items: center;
+            gap: 32px;
+            border-radius: 4px;
+            border: 1.5px solid var(--Text, #FAFAFA);
+            input{
+                border: none;
+                background: transparent;
+            }
+            img{
+                margin-left: -70px;
+            }
+        }
+    }
+    &__box1{
+       padding-top: 80px;
+        padding-bottom: 60px;
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px; 
+            margin-bottom: 24px;
+        }
+        h2{
+            width: 175px;
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 16px;
+        }
+        h3{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+        h4{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+        }
+    }
+    &__box2{
+         padding-top: 80px;
+        padding-bottom: 60px;
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px; 
+        }
+        p{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 16px;
+        }
+    }
+    &__box3{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px; 
+        }
+        p{
+            color: var(--Text, #FAFAFA);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+            margin-bottom: 16px;
+        }
+    }
+    &__box4{
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+        h1{
+            color: var(--Text, #FAFAFA);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+        h2{
+            color: var(--Text, #FAFAFA);
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px; 
+            opacity: 0.7;
+        }
+        &_wrapper{
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        &__icon{
+            margin-top: 24px;
+            display: flex;
+            gap: 24px;
+
+        }
+    }
+
+}
+.footer__finsh{
+    border-top: 1px solid rgb(189, 180, 180);
+    &_wrapper{
+        display: flex;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        
+        justify-content: center;
+        &_box{
+            display: flex;
+        align-items: center;
+        gap: 6px;
+            p{
+                color: var(--Primary, #FFF);
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+header {
+    
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    backdrop-filter: bulur(100px) ;
+    border-bottom: 1px solid rgb(180, 176, 176); 
+    
+
+    // example
+    #header__top--section{
+        background: var(--Button, #000);
+        padding: 12px 0px 12px 0px;
+        margin-bottom: 40px;
+    }
+    .header__top{
+        display: flex;
+        align-items: center;
+        gap: 231px;
+            p{
+                margin-left: 245px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                span{
+                    color: var(--Text, #FAFAFA);
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                }
+                a{
+                    color: var(--Text, #FAFAFA);
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 24px; 
+                    text-decoration-line: underline;
+                }
+            }
+        #nimadir{
+            background-color: transparent;
+            color: #FAFAFA;
+            border: none;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px; 
+        }
+    }
+
+    .nav {
+        
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo {
+            color: var(--Text2, #000);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.72px;
+            cursor: pointer;
+            text-decoration: none;  
+        }
+
+        &__list {
+            display: flex;
+            gap: 48px;
+            list-style-type: none;
+            
+
+            &--item {
+                
+
+                &-link1 {
+                    text-decoration: none;
+                    color: var(--Text2, #000);
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    border-bottom: 1px solid;
+                }
+                &-link2 {
+                    text-decoration: none;
+                    color: var(--Text2, #000);
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+
+                &-link3 {
+                    text-decoration: none;
+                    color: var(--Text2, #000);
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }      
+                &-link4 {
+                    text-decoration: none;
+                    color: var(--Text2, #000);
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }          
+            }
+        }
+
+    }
+    .nav-wrpper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+            &__input{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 24px;
+                input{
+                    border: none;
+                    background-color: transparent;
+                }
+                &--search{
+                display: flex;
+                align-items: center;
+                gap: 34px;
+                border-radius: 4px;
+                background: var(--Secondary, #F5F5F5);
+                padding: 7px 12px 7px 20px;
+                }
+
+                &--icons{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 16px;
+                }
+            }
+
+            
+    }
+}

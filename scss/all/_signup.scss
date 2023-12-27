@@ -1,0 +1,131 @@
+.signphoto{
+    position: absolute;
+    padding-bottom: 700px;
+    padding-top: 210px;
+    
+}
+.signup{
+    display: flex;
+    gap:120px ;
+    margin-top: 60px;
+    margin-bottom: 140px;
+    padding-top:240px;
+    padding-bottom: 781px;
+    
+    
+   
+}
+.signup__right{
+    position: absolute;
+    padding-left: 820px;
+    
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+   
+    form{
+        margin-top: px;
+        text-align: center;
+         h1{
+        
+        color: var(--Text2, #000);
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 1.44px;
+        
+    }
+        h2{
+       
+        color: var(--Text2, #000);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 48px;
+    }
+    label{
+        color: var(--Text2, #000);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.4;
+    }
+    input{
+        display: block;
+        width: 350px;
+        height: 40px;
+        margin: 20px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+    }
+    input[type="button"]{
+       display: flex;
+    padding: 16px 122px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    color: var(--Text, #FAFAFA);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    
+    
+    }
+    .inputclas{
+        width: 371px;
+        height: 56px;
+        font-size: 20px;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        background: var(--Button2, #DB4444);
+  
+
+   
+
+    }
+   
+    }
+    
+&_box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+    &--card{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        button{
+            border: none;
+            background-color: transparent;
+        }
+    }
+    &--card2{
+        display: flex;
+        padding: 16px 86px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.40);
+        button{
+            border: none;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            gap: 16px;
+        }
+    }
+    p{
+        color: var(--Text2, #000);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+}
+
+}
