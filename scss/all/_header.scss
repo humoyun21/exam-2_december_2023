@@ -106,6 +106,77 @@ header {
                 justify-content: center;
                 align-items: center;
                 gap: 24px;
+
+
+                .nav-wrpper__input--icons{
+                .logo:hover{
+
+                    a{
+                        background-color: #DB4444;
+                        border-radius: 100%;
+                        span{
+                            svg{
+                                path{
+                                    stroke: white;
+                                }
+                            }
+                        }
+                    }
+
+                    .ul-panel{
+                        li{
+                            a{
+                                background-color: transparent;
+                            }
+                        }
+                    }
+
+                    .ul-panel{
+                        display: block;
+                        z-index: 5;
+                        
+                        li:hover{
+                            background-color: #f5f5f550;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                position: relative;
+                .ul-panel{
+                    border-radius: 10px;
+                    padding: 15px;
+                    position: absolute;
+                    display: none;
+                    right: 0;
+                    top: 28px;  
+                    background: black;
+                    width: 230px;
+                    li{
+                        margin-bottom: 25px;
+                        a{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            gap: 10px;
+
+                            p{
+                                color: var(--Text, #FAFAFA);
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px; /* 150% */
+                            }
+                        }  
+                    }
+                }
+            }
+
+
+
+
+
+
                 input{
                     border: none;
                     background-color: transparent;
