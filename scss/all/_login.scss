@@ -14,6 +14,10 @@
         font-weight: 500;
         line-height: 24px;
     }
+    button:nth-child(1):hover{
+        border-radius: 4px;
+        background: var(--Hover-Button, #E07575);
+    }
     button:nth-child(2){
         color: var(--Secondary-2, #DB4444);
         font-size: 16px;

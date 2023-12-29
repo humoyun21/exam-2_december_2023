@@ -661,7 +661,7 @@ footer {
 
 .intro {
   margin-top: 40px;
-  padding-top: 180px;
+  padding-top: 0px;
   display: flex;
   gap: 45px;
   margin-bottom: 140px;
@@ -1393,7 +1393,7 @@ footer {
 .signphoto {
   position: absolute;
   padding-bottom: 700px;
-  padding-top: 210px;
+  padding-top: 0px;
 }
 
 .signup {
@@ -1401,7 +1401,7 @@ footer {
   gap: 120px;
   margin-top: 60px;
   margin-bottom: 140px;
-  padding-top: 240px;
+  padding-top: 20px;
   padding-bottom: 781px;
 }
 
@@ -1523,6 +1523,10 @@ footer {
   font-weight: 500;
   line-height: 24px;
 }
+.login button:nth-child(1):hover {
+  border-radius: 4px;
+  background: var(--Hover-Button, #E07575);
+}
 .login button:nth-child(2) {
   color: var(--Secondary-2, #DB4444);
   font-size: 16px;
@@ -1536,8 +1540,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 250px;
-  margin-bottom: 40px;
+  padding-top: 0px;
+  margin-bottom: 20px;
 }
 .wishlist h1 {
   color: #000;
