@@ -2,7 +2,7 @@
   "devDependencies": {
     "serve": "^11.2.0"
   },
-  "main": "index.html",
+  "main": "gemapad/index.html",
   "name": "swiper-pagination",
   "scripts": {
     "build": "echo This is a static template, there is no bundler or bundling involved!",
